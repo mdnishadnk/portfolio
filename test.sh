@@ -1,4 +1,4 @@
-!#bin/bash
+#!bin/bash
 pwd
 sudo touch file.txt
 sudo ls -lrth
