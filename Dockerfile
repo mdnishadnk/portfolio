@@ -1,5 +1,5 @@
 FROM nginx:latest
-MAINTAINER sankalp.saxena.sta@gmail.com
+MAINTAINER mdnishadnk
 WORKDIR /app
 COPY . .
 RUN rm -rf  /usr/share/nginx/html/index.html
