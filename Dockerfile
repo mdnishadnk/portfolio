@@ -1,5 +1,4 @@
 FROM nginx:latest
-MAINTAINER mdnishadnk
 WORKDIR /app
 COPY . .
 RUN rm -rf  /usr/share/nginx/html/index.html
